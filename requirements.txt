@@ -1,4 +1,6 @@
 
+
+tensorflow==2.16.2
 pandas
 mlflow == 2.13.1
 notebook

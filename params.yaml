@@ -1,3 +1,11 @@
 
 
-key : val
+LSTM :
+  optimizer : 'adam'
+  loss : 'mean_squared_error'
+  Dense_layer_1 : 25
+  Denser_layer_2 : 1
+  lstm_layer_1 : 128
+  lstm_layer_2 : 64
+  batch_size : 1
+  Epochs : 9
