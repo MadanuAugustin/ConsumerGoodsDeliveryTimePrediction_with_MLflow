@@ -8,7 +8,7 @@ import os
 import sys
 # from box.exceptions import BoxValueError
 import yaml
-from deliverytime import logger, CustomException
+from src.deliverytime import logger, CustomException
 import json
 import joblib
 from box import ConfigBox
