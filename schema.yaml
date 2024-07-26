@@ -1,3 +1,18 @@
 
 
-key : val
+COLUMNS:
+  ID                           :   object 
+  delivery_person_id           :   object 
+  delivery_person_age          :   int64  
+  delivery_person_ratings      :   float64
+  restaurant_latitude          :   float64
+  restaurant_longitude         :   float64
+  delivery_location_latitude   :   float64
+  delivery_location_longitude  :   float64
+  type_of_order                :   object 
+  type_of_vehicle              :   object 
+  time_taken_minutes           :   int64 
+
+
+TARGET_COLUMN:
+  name : time_taken_minutes
