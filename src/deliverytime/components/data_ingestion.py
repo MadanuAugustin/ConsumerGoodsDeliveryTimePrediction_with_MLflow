@@ -28,7 +28,7 @@ class DataIngestion:
 
             connection = mysql.connector.connect(**data_base_config)
 
-            query = "SELECT * FROM fooddeliverytimeprediction"
+            query = "SELECT * FROM preprocessed_data"
 
             logger.info('---Requesting the SQL database------')
 

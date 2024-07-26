@@ -12,6 +12,7 @@ COLUMNS:
   type_of_order                :   object 
   type_of_vehicle              :   object 
   time_taken_minutes           :   int64 
+  Distance                     :    float64
 
 
 TARGET_COLUMN:
